@@ -1,0 +1,9 @@
+extends ../templates/main.pug
+block logo2-menu
+  .group-bot
+    .logo-jesus
+      .logo-jesus__image
+    nav.menu
+      ul.nav
+      each nav__text in nav
+        li.nav__item: a(href="#").menu__link= nav__text
